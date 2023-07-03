@@ -11,5 +11,8 @@ jobs:
     steps:
       - name: Fecha
         run: |
-           "La fecha actual es " date +"Year: %Y, Month: %m, Day: %d"
+           "La fecha actual es date +"Year: %Y, Month: %m, Day: %d"
+      - name: Lista
+        run: |
+          ls     
      
