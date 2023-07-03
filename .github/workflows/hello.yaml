@@ -1,4 +1,4 @@
-name: Bienvenida!
+name: Hola Fecha!
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
   saludo_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Saludar
+      - name: Fecha
         run: |
-          echo "Hola Github Actions!!!"
+           "La fecha actual es " date +"Year: %Y, Month: %m, Day: %d"
      
